@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portofolio | M. Azwar</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#"> M. Azwar </a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-3-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <header id="home">
+      <div class="section__container header__container">
+        <div class="header__image">
+          <img src="assets/client.png" alt="header" />
+        </div>
+        <div class="header__content">
+          <h2 class="section__header">Selamat Datang</h2>
+          <p class="header__description">
+            Saya M. Azwar, mahasiswa S1 Pendidikan Agama Islam di Universitas
+            PTIQ Jakarta. Di sini Anda akan menemukan perjalanan belajar, karya,
+            dan pengalaman mengajar yang telah saya jalani.
+          </p>
+          <div class="header__btn">
+            <button class="btn">
+              CONTACT ME
+              <i class="ri-send-plane-fill"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__content">
+        <h2 class="section__header">About Me</h2>
+        <p>
+          Nama saya M. Azwar, lahir di Makassar pada 30 November 2004. Saat ini
+          saya berdomisili di Jl. Emmy Saelan, Makassar, dan menempuh studi S1
+          Pendidikan Agama Islam di Universitas PTIQ Jakarta.
+        </p>
+        <p>
+          Dalam perjalanan akademik dan keagamaan, saya aktif di berbagai
+          organisasi dan kegiatan, mulai dari Musyrif Tahfidzul Qur’an hingga
+          menjadi pendamping TPA dan pembina tahfidz. Saya senang berbagi ilmu
+          dan terus mengembangkan diri dalam bidang pendidikan agama.
+        </p>
+        <div class="about__btn">
+          <button class="btn">
+            VIEW MY WORKS <i class="ri-external-link-line"></i>
+          </button>
+        </div>
+      </div>
+      <div class="about__content">
+        <div class="pendidikan">
+          <h3 class="section__header__2">Pendidikan</h3>
+          <p>
+            • SD Inpres Kampus IKIP<br />
+            • Madrasah Hafidz Qur’an (AQL)<br />
+            • MA DDI Nurussalam<br />
+            • PTQ Al Fatih Jakarta<br />
+            • Universitas PTIQ Jakarta (S1 Pendidikan Agama Islam)
+          </p>
+        </div>
+        <div class="minat">
+          <h3 class="section__header__2">Minat</h3>
+          <p>
+            • Menghafal dan mengajar Al-Qur’an (15 juz lengkap beserta sanad)<br />
+            • Menjadi khatib dan imam sholat berjamaah<br />
+            • Merancang metode<br />
+            • pembelajaran interaktif dan menarik<br />
+            • Menguasai beberapa irama tilawah<br />
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container portfolio__container" id="portfolio">
+      <h2 class="section__header">Portfolio</h2>
+      <div class="portfolio__grid">
+        <img
+          src="assets/portfolio-1.png"
+          alt="portfolio"
+          class="portfolio__img_left"
+        />
+        <img
+          src="assets/portfolio-2.png"
+          alt="portfolio"
+          class="portfolio__img_right"
+        />
+      </div>
+    </section>
+
+    <footer class="contact" id="contact">
+      <div class="section__container contact__container">
+        <div class="contact__content__left">
+          <h2 class="section__header">Contact Me</h2>
+          <p>
+            Senang saling bertemu, silahkan hubungi saya melalui form dibawah
+          </p>
+          <form id="contact-form">
+            <div class="input__row">
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <input
+              type="text"
+              name="message"
+              placeholder="Your Message"
+              required
+            />
+            <div class="contact__btn">
+              <button class="btn" type="submit">
+                SEND IT <i class="ri-send-plane-fill"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="contact__content__right">
+          <div class="content__right">
+            <h2 class="section__header">My Social Links</h2>
+            <ul class="footer__contact">
+              <li>
+                <a href="mailto:mhmmd.azwar93@gmail.com" target="_blank"
+                  ><i class="ri-mail-line"></i>
+                  <p>mhmmd.azwar93@gmail.com</p></a
+                >
+              </li>
+              <li>
+                <a href="https://instagram.com/mhmmd.azwar93" target="_blank"
+                  ><i class="ri-instagram-line"></i>
+                  <p>@mhmmd.azwar93</p></a
+                >
+              </li>
+              <li>
+                <a href="https://wa.me/6281282525278" target="_blank"
+                  ><i class="ri-whatsapp-line"></i>
+                  <p>0812-8252-5278</p></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
